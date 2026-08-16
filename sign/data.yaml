@@ -1,0 +1,7 @@
+path: D:/traffic_sign
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['200 meters', '50 to 100 meters', 'Cross Road', 'Gap in Median', 'Hump', 'Lefthand Curve', 'MajorRoad Ahead', 'Men at Work', 'Narrow Bridge', 'Pedestrain', 'RightHandCurve', 'School Ahead', 'SideRoadLeft', 'SideRoadRight', 'Slippery Road', 'Staggered Intersection', 'Y-Intersection']
