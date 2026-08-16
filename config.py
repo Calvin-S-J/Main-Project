@@ -1,0 +1,22 @@
+VEHICLE_MODEL = "vehicle_detector.pt"
+TRAFFIC_SIGN_MODEL="traffic_sign.pt"
+VIDEO_IN = "inputs/2.mp4"
+VIDEO_OUT = "output_with_speed.mp4"
+
+LANE_VISIBLE_LENGTH_M = 4.0
+SMOOTH_ALPHA = 0.7
+
+DISPLAY = True
+WRITE_VIDEO = True
+
+S_THRESH = (150, 255)
+SX_THRESH = (20, 120)
+MORPH_KERNEL = (5, 5)
+
+NWINDOWS = 9
+MARGIN = 100
+MINPIX = 50
+
+FAST_APPROACH = 3.0
+APPROACH = 1.0
+AWAY = -1.0
